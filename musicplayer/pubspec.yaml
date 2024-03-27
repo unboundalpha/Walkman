@@ -1,0 +1,53 @@
+name: musicplayer
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^6.1.0 # Use the latest version from pub.dev
+  flutter_svg: ^0.22.0 # Update to the latest version from pub.dev
+  flutter_staggered_grid_view: ^0.4.0
+  firebase_core: ^2.24.2
+  firebase_auth: ^4.16.0
+  cloud_firestore: ^4.14.0
+  firebase_storage: ^11.6.1
+  audioplayers: ^5.2.1
+  shared_preferences: ^2.0.10
+  scroll_to_index: ^2.0.1
+  just_audio: ^0.9.36
+  
+  # firebase_storage: ^10.0.1
+  # audioplayers: ^0.22.0
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+  change_app_package_name: ^1.1.0
+  flutter_launcher_icons: ^0.11.0
+flutter_icons:
+  image_path: "assets/images/walkmanlogo.png"
+  android: true
+  ios: true
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/walkmanlogo.png"
+  min_sdk_android: 21
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/fonts/
+    - assets/images/
+    - assets/icons/
+    - assets/images/  
+
+  fonts:
+    - family: Walkman
+      fonts:
+        - asset: assets/fonts/Walkman.ttf

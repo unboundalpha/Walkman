@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "758458488621",
+    "project_id": "walkman-7ad21",
+    "storage_bucket": "walkman-7ad21.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:758458488621:android:85028753ab2527abf225a4",
+        "android_client_info": {
+          "package_name": "com.musicplayer.walkman"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "758458488621-ko9g1ri9vejom07cf8sis5oa1o2p5isv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDD8amF2jYHf5pv6d5w8eTRraSIBmcA8_8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "758458488621-ko9g1ri9vejom07cf8sis5oa1o2p5isv.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "758458488621-6qedvkadkqu6j8kkk5vkh4k77k6qrii6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.new.musicplayer.walkman"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
